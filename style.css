@@ -1,0 +1,109 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #C9DABF;
+  }
+  
+  header {
+    background-color: #9CA986;
+    color: #FEF3E2;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    color: #FEF3E2;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+    padding: 10px 20px;
+    border-radius: 4px;
+  }
+  
+  nav ul li a:hover {
+    color: #808D7C;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  section {
+    padding: 80px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    min-height: 800px;
+  }
+  
+  #beranda {
+  background-image: url(gun.jpeg);
+  background-size: cover;
+  text-align: center;
+  }
+  
+  #profil {
+    background-image: url(foto2.jpg);
+  }
+  
+  #audio-video {
+    background-image: url(foto3.jpg);
+  }
+  
+  #tentang {
+    background-image: url(foto4.jpg);
+  }
+  
+  #berita {
+    background-image: url();
+    color: #1A3636;
+  }
+  
+  section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #1A3636;
+    text-shadow: 1px 1px 3px #5F6F65(0, 0, 0, 0.5);
+  }
+  
+  section p {
+    font-size: 18px;
+    max-width: 800px;
+    margin-bottom: 40px;
+    color: #1A3636;
+    text-shadow: 1px 1px 3px #5F6F65(0, 0, 0, 0.5);
+  }
+  
+  footer {
+    background-color: #333;
+    color: #1A3636;
+    padding: 20px;
+    text-align: center;
+  }

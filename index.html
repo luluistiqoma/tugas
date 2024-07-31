@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>My Website</title>
+  <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+  <header>
+    <div class="logo">My_Website</div>
+    <nav>
+      <ul>
+        <li><a href="#beranda">BERANDA</a></li>
+        <li><a href="#profil">PROFIL</a></li>
+        <li><a href="#audio-video">AUDIO VIDEO</a></li>
+        <li><a href="#tentang">TENTANG</a></li>
+        <li><a href="#berita">BERITA</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="beranda">
+    <h2>Selamat Datang di Website saya</h2>
+  </section>
+
+  <section id="profil">
+    <h2>Profil Saya</h2>
+    <table class="table">
+      <thead>
+        <tr align="center">
+          <th scope="col">FOTO</th>
+          
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+                  <td rowspan="100" align="center"><img src="lulu.jpg" width="350" height="500"></td>
+                  <td>NAMA</td>
+                  <td>: LULU ISTIQOMAH</td>
+                </tr>
+                <tr>
+                  <td>NIM</td>
+                  <td>: 163 23 088</td>
+                </tr>
+                <tr>
+                  <td>JURUSAN</td>
+                  <td>: DIII MANAJEMEN INFORMATIKA</td>
+                </tr>
+                <tr>
+                  <td>KELAS</td>
+                  <td>: 1C</td>
+                </tr>
+                <tr>
+                  <td>KAMPUS</td>
+                  <td>: POLITEKNIK NEGERI FAKFAK</td>
+                </tr>
+                <tr>
+                  <td>ASAL SEKOLAH</td>
+                  <td>: SMA N 1 fak-fak</td>
+                </tr>
+                <tr>
+                  <td>JENIS KELAMIN</td>
+                  <td>: PEREMPUAN</td>
+                </tr>
+                <tr>
+                  <td>TEMPAT/TANGGAL LAHIR</td>
+                  <td>: FAK-FAK 27 JUNI 2005</td>
+                </tr>
+                <tr>
+                  <td>TINGGI BADAN/BERAT BADAN</td>
+                  <td>: 162 CM/58 KG</td>
+                </tr>
+                <tr>
+                  <td>NAMA AYAH</td>
+                  <td>: RUSLI</td>
+                </tr>
+                <tr>
+                  <td>NAMA IBU</td>
+                  <td>: RAHMATIA</td>
+                </tr>
+                <tr>
+                  <td>ALAMAT</td>
+                  <td>:JLN.DRS KADARMAN</td>
+                </tr>
+                <tr>
+                  <td>STATUS</td>
+                  <td>: MAHASISWA</td>
+                </tr>
+                <tr>
+                  <td>NO HP</td>
+                  <td>: 081344851820</td>
+                </tr>
+                <tr>
+                  <td>GMAIL</td>
+                  <td>: luluistiqoma2727@gmail.com</td>
+                </tr>
+      </tbody>
+    </table>
+    
+  </section>
+
+  <section id="audio-video">
+    <h2>Audio dan Video</h2>
+    <audio controls src="msk.mp3"></audio>
+    <video controls autoplay src="vvll.mp4" width="350" height="500"></video>
+  </section>
+
+  <section id="tentang">
+    <h2>Tentang Saya</h2>
+    <p>Hallo saya lulu yang memiliki nama lengkap lulu istiqomah, saya lahir besar fakfak paupa barat
+      dan saya sudah berusia 19thn. saya adalah anak pertama dari ayah saya dan anak kelima dari ibu saya
+      saya pernah bersekolah di TK yapis 1 FAKFAK di tahun 2010, lalu di tahun 2011-2016 saya bersekolah di
+      SD Negeri FAKFAK lalu 2017-2019 di SMP Negeri 1 FAKFAK dan 2020-2023 di SMA Negeri 1 FAKFAK Dan sampai sekarang melanjutkan di 
+      POLITEKNIK FAKFAK.
+    </p>
+  </section>
+
+  <section id="berita">
+    <h2>Berita Terbaru</h2>
+    <img src="pls.jpeg" class="img-fluid"  width="500" height="300">
+</center>
+<hr>
+
+  <h3 align="center">All Eyes on Papua</h3>
+  
+  <p>
+    Ratusan anak-anak dan balita menderita penyakit kulit yang merajalela di Gaza, kata pejabat kesehatan. Penyebabnya, kondisi mengerikan di tenda pengungsian yang menampung ratusan ribu warga Palestina.
+    Musim panas dan runtuhnya sanitasi serta genangan limbah terbuka menyebabkan pengungsi menderita. Dokter berjuang atasi 103.000 kasus kutu dan kudis serta 65.000 kasus ruam kulit, menurut WHO.
+
+  </p>
+  <p>Setelah gerakan All Eyes on Palestina ramai dibagikan oleh masyarakat seluruh dunia,
+     aksi All Eyes on Palestina.</p>
+
+  </section>
+
+ 
+  <script>
+    // Add smooth scrolling behavior
+    document.querySelectorAll('nav a').forEach(link => {
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        const targetId = e.target.getAttribute('href');
+        const targetSection = document.querySelector(targetId);
+        targetSection.scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+  </script>
+</body>
+</html>
